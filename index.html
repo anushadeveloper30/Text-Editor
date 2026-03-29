@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Editor</title>
+</head>
+<body>
+    <div class="container">
+    <button id="incr">Size Increase</button>
+    <button id="dec">Size Decrease</button>
+    <button id="underline">Underline</button>
+    <button id="italic">Italic</button>
+    <button id="bold"><b>Bold</b></button>
+    <button id="remove">Delete Edit</button>
+    <select name="font" id="font">
+        <option value="Arial">Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Algerian">Algerian</option>
+        <option value="Calibri">Calibri</option>
+        <option value="Bahnschrift">Bahnschrift</option>
+        <option value="Bell MT">Bell MT</option>
+        <option value="Blackadder ITC">Blackadder ITC</option>
+        <option value="Berlin Sans FB">Berlin Sans FB</option>
+        <option value="Bodoni MT Black">Bodoni MT Black</option>
+    </select>
+    <button onclick="window.print()">Print</button>
+    <input type="color" id="color">
+    </div>
+    <h1>TEXT EDITOR</h1>
+    <div id="text">
+         <textarea id="para"></textarea>
+    </div>
+
+
+
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
